@@ -1,0 +1,16 @@
+title: Emilien Jemelen's home page
+email: emilien.jemelen@inria.fr
+description: >-
+  Minimal test
+baseurl: ""
+url: "emilien-jemelen.github.io"
+github_username: emilien-jemelen
+
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+
+name: A minimal test
+exclude:
+  - tmp/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
