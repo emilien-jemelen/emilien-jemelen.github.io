@@ -1,6 +1,6 @@
 ---
 layout: page
-background: "banner.jpeg"
+background: "banner.jpg"
 ---
 
 Welcome on this **test website**
