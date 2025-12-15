@@ -1,0 +1,38 @@
+/* Left sidebar nav */
+.leftnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  padding: 24px 18px;
+  background: #2f343a; /* close to your screenshot’s dark header */
+  z-index: 1000;
+}
+
+.leftnav-brand {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+
+.leftnav-links a {
+  display: block;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-size: 13px;
+}
+
+.leftnav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Push the rest of the page to the right so it doesn't sit under the sidebar */
+body {
+  padding-left: 260px;
+}
