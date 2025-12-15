@@ -8,7 +8,7 @@ github_username: emilien-jemelen
 
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
-name: A minimal test
+name: A minimal home page
 exclude:
   - tmp/
   - vendor/
