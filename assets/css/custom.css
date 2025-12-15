@@ -1,4 +1,0 @@
-/* Hide the big centered title block in the hero header (HOME only) */
-body.home header.masthead .site-heading {
-  display: none;
-}
