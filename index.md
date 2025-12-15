@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: home
+title: ""
+description: ""
 background: "banner.jpg"
 ---
 
