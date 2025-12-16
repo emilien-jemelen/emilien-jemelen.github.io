@@ -43,21 +43,38 @@ header.masthead ~ .container .btn {
   display: none !important;
 }
 
-/* ===== Left nav styling ===== */
-.leftnav-links {
-  margin-left: 12px;   /* small offset from left */
+/* ===== Left navigation ===== */
+
+.leftnav {
+  margin-bottom: 12px;
 }
 
-.leftnav-links a {
-  text-transform: capitalize;
+/* Site title */
+.leftnav-brand {
   font-weight: 700;
-  letter-spacing: 0.02em;
+  font-size: 20px;
   text-decoration: none;
   display: inline-block;
-  padding: 6px 0;
+  margin-bottom: 6px;
 }
 
-/* separators */
+/* Nav container */
+.leftnav-links {
+  margin-left: 12px; /* small offset from left */
+}
+
+/* Nav links */
+.leftnav-links a {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 4px 0;
+}
+
+/* Separators */
 .leftnav-links a:not(:last-child)::after {
   content: " | ";
   opacity: 0.5;
@@ -65,8 +82,14 @@ header.masthead ~ .container .btn {
   margin: 0 6px;
 }
 
-/* hover */
+/* Hover */
 .leftnav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Active page */
+.leftnav-links a.active {
+  font-weight: 700;
   text-decoration: underline;
 }
 
