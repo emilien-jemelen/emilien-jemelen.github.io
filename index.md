@@ -7,7 +7,8 @@ background: "/banner.jpg"
 <a id="about"></a>
 ## About
 
-Write your bio here.
+I am a Ph.D candidate in the [HeKa](https://heka.gitlabpages.inria.fr/) Inria team hosted at [PariSanté Campus](https://parisantecampus.fr/), under the supervision of Sandrine Katsahian and Agathe Guilloux. Here is [a short CV](/CV_Emilien_Jemelen.pdf).
+
 
 <a id="research"></a>
 ## Research
