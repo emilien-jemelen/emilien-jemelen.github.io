@@ -13,3 +13,6 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+
+css:
+  - assets/css/custom.css
