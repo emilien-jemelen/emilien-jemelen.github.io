@@ -1,44 +1,16 @@
-/* Left sidebar nav */
-.leftnav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 260px;
-  height: 100vh;
-  padding: 24px 18px;
-  background: #2f343a; /* close to your screenshot’s dark header */
-  z-index: 1000;
+/* assets/css/custom.css */
+header.masthead .site-heading,
+header.masthead .post-heading,
+header.masthead .page-heading {
+  display: none !important;
 }
 
-.leftnav-brand {
-  display: block;
-  font-weight: 700;
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 18px;
-}
-
-.leftnav-links a {
-  display: block;
-  padding: 10px 0;
-  color: white;
-  text-decoration: none;
-  letter-spacing: 0.06em;
-  font-size: 13px;
-}
-
-.leftnav-links a:hover {
-  text-decoration: underline;
-}
-
-/* Push the rest of the page to the right so it doesn't sit under the sidebar */
-body {
-  padding-left: 260px;
-}
-
-/* Reduce homepage banner height */
 header.masthead {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+header.masthead .overlay {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
