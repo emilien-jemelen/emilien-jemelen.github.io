@@ -43,9 +43,13 @@ header.masthead ~ .container .btn {
   display: none !important;
 }
 
-/* ===== Left nav: nicer links ===== */
+/* ===== Left nav styling ===== */
+.leftnav-links {
+  margin-left: 12px;   /* small offset from left */
+}
+
 .leftnav-links a {
-  text-transform: lowercase;   /* shows about, research... */
+  text-transform: capitalize;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -53,7 +57,7 @@ header.masthead ~ .container .btn {
   padding: 6px 0;
 }
 
-/* separators between links */
+/* separators */
 .leftnav-links a:not(:last-child)::after {
   content: " | ";
   opacity: 0.5;
@@ -61,7 +65,7 @@ header.masthead ~ .container .btn {
   margin: 0 6px;
 }
 
-/* optional: underline on hover */
+/* hover */
 .leftnav-links a:hover {
   text-decoration: underline;
 }
