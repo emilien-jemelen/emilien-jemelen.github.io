@@ -1,0 +1,41 @@
+---
+layout: home
+background: "banner.jpg"
+---
+
+<style>
+/* ===== REMOVE ANY HERO TITLE BLOCK ===== */
+header.masthead .site-heading,
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead h1,
+header.masthead h2 {
+  display: none !important;
+}
+
+/* ===== FORCE A SMALL BANNER ===== */
+header.masthead {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: 220px !important;
+}
+
+/* Sometimes theme adds spacing inside the header grid */
+header.masthead .container,
+header.masthead .row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Overlay should not create spacing */
+header.masthead .overlay {
+  padding: 0 !important;
+}
+</style>
+
+<p>Welcome on this <strong>test website vvv</strong></p>
