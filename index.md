@@ -1,28 +1,25 @@
 ---
 layout: home
-title: 
-description: 
 background: "banner.jpg"
 ---
 
-Welcome on this **test website**
-
-
-
 <style>
-header.masthead .site-heading,
-header.masthead .post-heading,
-header.masthead .page-heading {
+/* === 1) REMOVE BANNER TITLE COMPLETELY === */
+header.masthead .site-heading {
   display: none !important;
 }
 
+/* === 2) FORCE BANNER HEIGHT === */
 header.masthead {
-  padding-top: 90px !important;
-  padding-bottom: 90px !important;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  min-height: unset !important;
 }
 
+/* === 3) REMOVE EXTRA VERTICAL SPACE FROM OVERLAY === */
 header.masthead .overlay {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  padding: 0 !important;
 }
 </style>
+
+Welcome on this **test website**
