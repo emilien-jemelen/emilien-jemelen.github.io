@@ -2,9 +2,9 @@
   <a class="leftnav-brand" href="/">Emilien Jemelen's home page</a>
 
   <div class="leftnav-links">
-    <a href="/about/">ABOUT</a>
-    <a href="/research/">RESEARCH</a>
-    <a href="/projects/">PROJECTS</a>
-    <a href="/teaching/">TEACHING</a>
+    <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+    <a href="/research/" class="{% if page.url == '/research/' %}active{% endif %}">Research</a>
+    <a href="/projects/" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+    <a href="/teaching/" class="{% if page.url == '/teaching/' %}active{% endif %}">Teaching</a>
   </div>
 </nav>
