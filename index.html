@@ -43,27 +43,27 @@ header.masthead ~ .container .btn {
   display: none !important;
 }
 
-/* Nicer nav styling: lowercase, bold, separators */
-.navbar-nav .nav-item .nav-link {
-  text-transform: lowercase !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.02em !important;
+/* ===== Left nav: nicer links ===== */
+.leftnav-links a {
+  text-transform: lowercase;   /* shows about, research... */
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 0;
 }
 
-/* Add separators between links */
-.navbar-nav .nav-item {
-  position: relative;
-  padding-right: 14px;
-  margin-right: 14px;
-}
-
-.navbar-nav .nav-item:not(:last-child)::after {
-  content: "|";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+/* separators between links */
+.leftnav-links a:not(:last-child)::after {
+  content: " | ";
   opacity: 0.5;
+  font-weight: 400;
+  margin: 0 6px;
+}
+
+/* optional: underline on hover */
+.leftnav-links a:hover {
+  text-decoration: underline;
 }
 
 </style>
