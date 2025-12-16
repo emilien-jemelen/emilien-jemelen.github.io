@@ -4,20 +4,24 @@ permalink: /
 background: "/banner.jpg"
 ---
 
-## About {#about}
+<a id="about"></a>
+## About
 
 Write your bio here.
 
-## Research {#research}
+<a id="research"></a>
+## Research
 
 Your research summary here.
 
-## Projects {#projects}
+<a id="projects"></a>
+## Projects
 
 - Project 1
 - Project 2
 
-## Teaching {#teaching}
+<a id="teaching"></a>
+## Teaching
 
 - Course A
 - Course B
