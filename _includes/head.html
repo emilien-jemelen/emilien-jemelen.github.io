@@ -1,93 +1,74 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>
-    {% if page.title %}
-      {{ page.title }} – {{ site.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
+<title>
+  {% if page.title %}
+    {{ page.title }} – {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+</title>
 
-  {{ seo }}
+{%- if site.plugins contains "jekyll-seo-tag" -%}
+  {% seo %}
+{%- endif -%}
 
-  <!-- === Custom site-wide styles === -->
-  <style>
-    /* ===== Left navigation ===== */
+<!-- IMPORTANT: keep theme styles -->
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
-    .leftnav {
-      margin-bottom: 12px;
-    }
+<style>
+  /* ===== Left navigation ===== */
+  .leftnav { margin-bottom: 12px; }
 
-    .leftnav-brand {
-      font-weight: 700;
-      font-size: 20px;
-      text-decoration: none;
-      display: inline-block;
-      margin-bottom: 6px;
-    }
+  .leftnav-brand {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 6px;
+    cursor: default;
+  }
 
-    .leftnav-links {
-      margin-left: 12px;
-    }
+  .leftnav-links { margin-left: 12px; }
 
-    .leftnav-links a {
-      font-weight: 600;
-      font-size: 15px;
-      letter-spacing: 0.03em;
-      text-decoration: none;
-      color: inherit;
-      display: inline-block;
-      padding: 4px 0;
-    }
+  .leftnav-links a {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 4px 0;
+  }
 
-    .leftnav-links a:not(:last-child)::after {
-      content: " | ";
-      opacity: 0.5;
-      font-weight: 400;
-      margin: 0 6px;
-    }
+  .leftnav-links a:not(:last-child)::after {
+    content: " | ";
+    opacity: 0.5;
+    font-weight: 400;
+    margin: 0 6px;
+  }
 
-    .leftnav-links a:hover {
-      text-decoration: underline;
-    }
+  .leftnav-links a:hover { text-decoration: underline; }
 
-    .leftnav-links a.active {
-      font-weight: 700;
-      text-decoration: underline;
-    }
+  /* ===== Banner cleanup ===== */
+  header.masthead .site-heading,
+  header.masthead h1,
+  header.masthead h2 { display: none !important; }
 
-    /* ===== Banner cleanup ===== */
+  header.masthead {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+  }
 
-    header.masthead .site-heading,
-    header.masthead h1,
-    header.masthead h2 {
-      display: none !important;
-    }
-    
-    header.masthead {
-      padding-top: 100px !important;
-      padding-bottom: 100px !important;
-    
-      background-size: cover !important;   /* ← key change */
-      background-repeat: no-repeat !important;
-      background-position: center top !important;
-    }
+  header.masthead .overlay { padding: 0 !important; }
 
-    header.masthead .overlay {
-      padding: 0 !important;
-    }
+  /* ===== Remove blog artifacts ===== */
+  a.btn { display: none !important; }
 
-    /* ===== Remove blog artifacts ===== */
-    a.btn {
-      display: none !important;
-    }
-
-    footer .list-inline,
-    footer .social-icons,
-    footer .fa-stack {
-      display: none !important;
-    }
-  </style>
-</head>
+  footer .list-inline,
+  footer .social-icons,
+  footer .fa-stack { display: none !important; }
+</style>
