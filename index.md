@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Emilien Jemelen's home page"
-description: ""
+title: 
+description: 
 background: "banner.jpg"
 ---
 
