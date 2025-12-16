@@ -11,8 +11,8 @@ header.masthead .site-heading {
 
 /* === 2) FORCE BANNER HEIGHT === */
 header.masthead {
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
   min-height: unset !important;
 }
 
