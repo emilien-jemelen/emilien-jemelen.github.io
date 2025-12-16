@@ -43,7 +43,29 @@ header.masthead ~ .container .btn {
   display: none !important;
 }
 
+/* Nicer nav styling: lowercase, bold, separators */
+.navbar-nav .nav-item .nav-link {
+  text-transform: lowercase !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* Add separators between links */
+.navbar-nav .nav-item {
+  position: relative;
+  padding-right: 14px;
+  margin-right: 14px;
+}
+
+.navbar-nav .nav-item:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
 
 </style>
 
-<p>Welcome on this <strong>test website vvv</strong></p>
+<p>Welcome on this <strong>test website v</strong></p>
