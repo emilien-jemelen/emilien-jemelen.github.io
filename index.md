@@ -32,7 +32,7 @@ My primary research interests lie in statistics and machine learning, with a par
 * *Beyond Accuracy: Controlling Broad Error Types in Selective Classification*. Emilien Jemelen, Francisco Orchard, Sandrine Katsahian, Agathe Guilloux. Currently under review.
 
 **Communications (by topic)**
-* *Breast cancer detection task with convolutional networks on screening mammograms*
+* *Breast cancer detection task with convolutional networks trained on screening mammograms*
   * Poster presentation at [the Women's Health Conference](https://www.mcascientificevents.eu/womens-health-conference/). Paris. September 2025.
   * Oral presentation at the Journée Nationale de la FEHAP (a private hospitals network). Remote. June 2025.
   * Poster presentation at [the annual IABM conference](https://iabm2025.sciencesconf.org/). Nice. March 2025.
