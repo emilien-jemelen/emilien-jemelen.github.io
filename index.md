@@ -49,8 +49,8 @@ My primary research interests lie in statistics and machine learning, with a par
 <a id="projects"></a>
 ## Projects
 
-- Project 1
-- Project 2
+**Deep.piste**
+ 
 
 <a id="teaching"></a>
 ## Teaching
