@@ -59,7 +59,11 @@ My primary research interests lie in statistics and machine learning, with a par
   {{ "  
 ## Projects
 
-**Deep.piste**
+**Deep.piste (2023-ongoing)**
+The Deep.piste (pun based on "deep learning" and "dépistage"—screening in French) project aims at evaluating the maximal impact of AI implementation in the French breast cancer screening program. It is the result of a collaboration between [the Regional Center for Cancer Screening (CRCDC) in Occitanie](https://occitanie-depistagecancer.fr/), the [Epiconcept](https://www.epiconcept.fr/en/) company in charge of the digitization of mammograms in Occitanie, and [the HeKa team](https://heka.gitlabpages.inria.fr/) expertise in deep learning for medical applications.
+
+
+
  " | markdownify }}
 </div>
 
