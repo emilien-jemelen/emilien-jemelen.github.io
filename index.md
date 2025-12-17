@@ -4,7 +4,7 @@ permalink: /
 background: "/banner.jpg"
 ---
 
-<a id="about"></a>
+<div class="section-card" id="about">
 ## About
 
 I am a Ph.D candidate in the [HeKa](https://heka.gitlabpages.inria.fr/) Inria team hosted at [PariSanté Campus](https://parisantecampus.fr/), under the supervision of [Sandrine Katsahian](https://www.researchgate.net/profile/Sandrine-Katsahian) and [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite). Here is [a short CV](/CV_Emilien_Jemelen.pdf).
@@ -22,7 +22,10 @@ My primary research interests lie in statistics and machine learning, with a par
 * Long-standing practice of classical guitar, with a repertoire spanning mainly flamenco and Baroque pieces; check out this fantastic [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189) for an overview of one of the greatest duos in the history of the instrument (far beyond my own level).
 * A sustained interest in natural phenomena, such as plant communication (e.g. the fascinating [documentary of Freddie Röckenhaus and Petra Höfer](https://www.senscritique.com/film/le_murmure_de_la_foret_quand_les_arbres_parlent/44263907)), collective dynamics in animal groups (well illustrated by [the popularized explanations of Fouloscopie](https://www.youtube.com/watch?v=Ch7VxxTBe1c)), and climate evolution and temperature reconstruction, notably presented in the [lectures of Edouard Bard](https://www.youtube.com/watch?v=F49vKJFuGlU) at Collège de France.
 
-<a id="research"></a>
+</div>
+
+<div class="section-card" id="research">
+
 ## Research
 
 **Journal papers**
@@ -46,13 +49,18 @@ My primary research interests lie in statistics and machine learning, with a par
   * Oral presentation at [the PariSanté Campus *Démo Day*](https://parisantecampus.fr/agenda/demo-day-3-vivez-linnovation-sante-ia-au-coeur-de-parisante-campus/). Paris. November 2025.
   * Oral presentation at [the Open Science day](https://www.health-data-hub.fr/page/journee-de-lopen-science-en-sante) held by [the Health Data Hub](https://www.health-data-hub.fr/). Paris. April 2024.
 
-<a id="projects"></a>
+</div>
+
+<div class="section-card" id="projects">
+  
 ## Projects
 
 **Deep.piste**
  
+</div>
 
-<a id="teaching"></a>
+<div class="section-card" id="teaching">
+  
 ## Teaching
 
 - Course A
