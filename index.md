@@ -25,7 +25,26 @@ My primary research interests lie in statistics and machine learning, with a par
 <a id="research"></a>
 ## Research
 
-Your research summary here.
+**Journal papers**
+* *Evaluating breast cancer screening performance without registries using medico-administrative data*. Emilien Jemelen, Francisco Orchard, William Madie, Bernard Valentin, Josine Belin, Enora Laas, Guillaume Jeannerod, Pierre Mares, Sandrine Katsahian, Agathe Guilloux. Nature Scientific Reports 15, 25096 (2025). Link: [paper](https://doi.org/10.1038/s41598-025-10115-w)
+
+**Conference papers**
+* *Beyond Accuracy: Controlling Broad Error Types in Selective Classification*. Emilien Jemelen, Francisco Orchard, Sandrine Katsahian, Agathe Guilloux. Currently under review.
+
+**Communications (by topic)**
+* *Breast cancer detection task with convolutional networks on screening mammograms*
+  * Poster presentation at [the Women's Health Conference](https://www.mcascientificevents.eu/womens-health-conference/). Paris. September 2025.
+  * Oral presentation at the Journée Nationale de la FEHAP (a private hospitals network). Remote. June 2025.
+  * Poster presentation at [the annual IABM conference](https://iabm2025.sciencesconf.org/). Nice. March 2025.
+* *Breast cancer identification algorithm (sndskit) and screening performance estimates*
+  * Oral presentation at [the annual Congrès de l'information médicale (EMOIS)](https://www.emois.org/). Nancy. March 2025.
+  * Poster presentation at the annual seminar of [the ED393 doctoral school](https://ed393.sorbonne-universite.fr/). Saint-Malo. February 2025.
+  * Oral and poster presentations at [the annual conference of the Société française de Sénologie et de Pathologie Mammaire (SFSPM)](https://www.senologie.com/congres/Nantes-2024). Nantes. November 2024.
+  * Oral presentation at the annual [Journées françaises de Radiologie (JFR)](https://www.jfr.plus/jfr-2024). Paris. October 2024.
+  * Poster presentation at [the EPICLIN conference](https://www.ces-asso.org/conference-epiclin-2024). Dijon. May 2024.
+* *[Deep.piste project](https://www.epiconcept.fr/custom-project/deep-piste/) general communications*
+  * Oral presentation at [the PariSanté Campus *Démo Day*](https://parisantecampus.fr/agenda/demo-day-3-vivez-linnovation-sante-ia-au-coeur-de-parisante-campus/). Paris. November 2025.
+  * Oral presentation at [the Open Science day](https://www.health-data-hub.fr/page/journee-de-lopen-science-en-sante) held by [the Health Data Hub](https://www.health-data-hub.fr/). Paris. April 2024.
 
 <a id="projects"></a>
 ## Projects
