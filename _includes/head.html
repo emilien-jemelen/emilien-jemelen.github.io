@@ -50,21 +50,32 @@
 
   .leftnav-links a:hover { text-decoration: underline; }
 
-   /* ===== Banner cleanup ===== */
-  header.masthead .site-heading,
-  header.masthead h1,
-  header.masthead h2 { display: none !important; }
+  /* ===== Full-screen banner ===== */
 
-  header.masthead {
-    padding-top: 90px !important;
-    padding-bottom: 90px !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center top !important;
-  }
+header.masthead {
+  min-height: 15vh !important;        /* ← full viewport height */
+  padding: 0 !important;               /* no extra spacing */
+  display: flex;
+  align-items: center;                 /* vertical centering if content exists */
+  justify-content: center;
 
-  header.masthead .overlay { padding: 0 !important; }
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
 
+/* Remove any banner text */
+header.masthead .site-heading,
+header.masthead h1,
+header.masthead h2 {
+  display: none !important;
+}
+
+/* Remove overlay padding */
+header.masthead .overlay {
+  padding: 0 !important;
+}
+  
   /* ===== Remove blog artifacts ===== */
   a.btn { display: none !important; }
 
