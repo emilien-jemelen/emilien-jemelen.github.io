@@ -36,7 +36,7 @@ My primary research interests lie in statistics and machine learning, with a par
   * Poster presentation at [the Women's Health Conference](https://www.mcascientificevents.eu/womens-health-conference/). Paris. September 2025.
   * Oral presentation at the Journée Nationale de la FEHAP (a private hospitals network). Remote. June 2025.
   * Poster presentation at [the annual IABM conference](https://iabm2025.sciencesconf.org/). Nice. March 2025.
-* *Breast cancer identification algorithm (sndskit) and screening performance estimates*
+* *Breast cancer identification algorithm (sndskit) and screening performance estimates based on [the SNDS medico-administrative database](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html)*
   * Oral presentation at [the annual Congrès de l'information médicale (EMOIS)](https://www.emois.org/). Nancy. March 2025.
   * Poster presentation at the annual seminar of [the ED393 doctoral school](https://ed393.sorbonne-universite.fr/). Saint-Malo. February 2025.
   * Oral and poster presentations at [the annual conference of the Société française de Sénologie et de Pathologie Mammaire (SFSPM)](https://www.senologie.com/congres/Nantes-2024). Nantes. November 2024.
