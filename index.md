@@ -18,9 +18,9 @@ My primary research interests lie in statistics and machine learning, with a par
   2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris. Métro Balard or Porte de Versailles.
 
 **Selected non-academic interests:** 
-* Competitive amateur road cycling with the [Equipe Cycliste Vélizy 78](https://www.ecvelizy78.com/) since 2021
-* Long-standing practice of classical guitar, with a repertoire spanning both flamenco and Baroque techniques; this duality is well illustrated in the following [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189)
-* A sustained interest in natural phenomena, such as plant communication (e.g. the fascinating [documentary of Freddie Röckenhaus and Petra Höfer](https://www.senscritique.com/film/le_murmure_de_la_foret_quand_les_arbres_parlent/44263907)), collective dynamics in animal groups (well illustrated by [the popularized explanations of Fouloscopie](https://www.youtube.com/watch?v=Ch7VxxTBe1c)), and climate evolution and temperature reconstruction, notably presented in the [lectures of Edouard Bard](https://www.youtube.com/watch?v=F49vKJFuGlU) at Collège de France
+* Competitive amateur road cycling with the [Equipe Cycliste Vélizy 78](https://www.ecvelizy78.com/) since 2021.
+* Long-standing practice of classical guitar, with a repertoire spanning mainly flamenco and Baroque pieces, check out this fantastic [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189) for an overview.
+* A sustained interest in natural phenomena, such as plant communication (e.g. the fascinating [documentary of Freddie Röckenhaus and Petra Höfer](https://www.senscritique.com/film/le_murmure_de_la_foret_quand_les_arbres_parlent/44263907)), collective dynamics in animal groups (well illustrated by [the popularized explanations of Fouloscopie](https://www.youtube.com/watch?v=Ch7VxxTBe1c)), and climate evolution and temperature reconstruction, notably presented in the [lectures of Edouard Bard](https://www.youtube.com/watch?v=F49vKJFuGlU) at Collège de France.
 
 <a id="research"></a>
 ## Research
