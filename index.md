@@ -59,7 +59,9 @@ My primary research interests lie in statistics and machine learning, with a par
 ## Projects
 
 #### Deep.piste (2023–ongoing)  
-The **Deep.piste** project (*deep learning* and *dépistage*—French for *screening*) aims to assess the **maximum potential impact of artificial intelligence** on the French breast cancer screening program. The project is the result of a collaboration between the [Regional Center for Cancer Screening (CRCDC) in Occitanie](https://occitanie-depistagecancer.fr/), [Epiconcept](https://www.epiconcept.fr/en/), the company responsible for the digitization of mammograms in Occitanie, and the [HeKa team](https://heka.gitlabpages.inria.fr/), which brings expertise in deep learning for medical applications.
+The **Deep.piste** project (*deep learning* and *dépistage*—French for *screening*) aims to assess the **maximum potential impact of artificial intelligence** on the French mammography-based breast cancer screening program. The project is the result of a collaboration between the [Regional Center for Cancer Screening (CRCDC) in Occitanie](https://occitanie-depistagecancer.fr/), [Epiconcept](https://www.epiconcept.fr/en/), the company responsible for the digitization of mammograms in Occitanie, and the [HeKa team](https://heka.gitlabpages.inria.fr/), which brings expertise in deep learning for medical applications.
+
+![Mammograms](/mammos.png)
 
 **Main stages of the Deep.piste project:**
 1. §2023-2024§ **Construction of reliable cancer labels** through systematic follow-up of all screened women using data from the [National Health Data System (SNDS)](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html). These labels include interval cancers, defined as cancers diagnosed within 24 months following a negative mammography.
