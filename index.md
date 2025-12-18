@@ -7,7 +7,7 @@ background: "/banner.jpg"
 <a id="about"></a>
 <div class="section-card">
   {{ "
-## About
+# About
 
 I am a Ph.D candidate in the [HeKa](https://heka.gitlabpages.inria.fr/) Inria team hosted at [PariSanté Campus](https://parisantecampus.fr/), under the supervision of [Sandrine Katsahian](https://www.researchgate.net/profile/Sandrine-Katsahian) and [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite). Here is [a short CV](/CV_Emilien_Jemelen.pdf).
 
@@ -28,7 +28,7 @@ My primary research interests lie in statistics and machine learning, with a par
 <a id="research"></a>
 <div class="section-card">
   {{ "
-## Research
+# Research
 
 ### Journal papers:
 * *Evaluating breast cancer screening performance without registries using medico-administrative data*. Emilien Jemelen, Francisco Orchard, William Madie, Bernard Valentin, Josine Belin, Enora Laas, Guillaume Jeannerod, Pierre Mares, Sandrine Katsahian, Agathe Guilloux. Nature Scientific Reports 15, 25096 (2025). Link: [paper](https://doi.org/10.1038/s41598-025-10115-w)
@@ -56,7 +56,7 @@ My primary research interests lie in statistics and machine learning, with a par
 <a id="projects"></a>
 <div class="section-card">
   {{ "  
-## Projects
+# Projects
 
 ### Deep.piste (2023–ongoing)  
 The **Deep.piste** project (*deep learning* and *dépistage*—French for *screening*) aims to assess the **maximum potential impact of artificial intelligence** on the French breast cancer screening program. The project is the result of a collaboration between the [Regional Center for Cancer Screening (CRCDC) in Occitanie](https://occitanie-depistagecancer.fr/), [Epiconcept](https://www.epiconcept.fr/en/), the company responsible for the digitization of mammograms in Occitanie, and the [HeKa team](https://heka.gitlabpages.inria.fr/), which brings expertise in deep learning for medical applications.
@@ -73,7 +73,7 @@ The **Deep.piste** project (*deep learning* and *dépistage*—French for *scree
 <a id="teaching"></a>
 <div class="section-card">
   {{ "
-## Teaching
+# Teaching
 
 - Course A
 - Course B
