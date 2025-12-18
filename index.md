@@ -42,7 +42,7 @@ My primary research interests lie in statistics and machine learning, with a par
   * Poster presentation at [the Women's Health Conference](https://www.mcascientificevents.eu/womens-health-conference/). Paris. September 2025.
   * Oral presentation at the Journée Nationale de la FEHAP (a private hospitals network). Remote. June 2025.
   * Poster presentation at [the annual IABM conference](https://iabm2025.sciencesconf.org/). Nice. March 2025.
-* *Breast cancer identification algorithm (sndskit) and screening performance estimates based on [the SNDS medico-administrative database](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html)*
+* *Breast cancer identification algorithm (sndskit) and screening performance estimates based on [the National Health Data System (SNDS) medico-administrative database](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html)*
   * Oral presentation at [the annual Congrès de l'information médicale (EMOIS)](https://www.emois.org/). Nancy. March 2025.
   * Poster presentation at the annual seminar of [the ED393 doctoral school](https://ed393.sorbonne-universite.fr/). Saint-Malo. February 2025.
   * Oral and poster presentations at [the annual conference of the Société française de Sénologie et de Pathologie Mammaire (SFSPM)](https://www.senologie.com/congres/Nantes-2024). Nantes. November 2024.
@@ -59,10 +59,14 @@ My primary research interests lie in statistics and machine learning, with a par
   {{ "  
 ## Projects
 
-**Deep.piste (2023-ongoing)**
-The Deep.piste (*deep learning* and *dépistage*—screening in French) project aims at evaluating the maximal impact of AI implementation in the French breast cancer screening program. It is the result of a collaboration between [the Regional Center for Cancer Screening (CRCDC) in Occitanie](https://occitanie-depistagecancer.fr/), the [Epiconcept](https://www.epiconcept.fr/en/) company in charge of the digitization of mammograms in Occitanie, and [the HeKa team](https://heka.gitlabpages.inria.fr/) expertise in deep learning for medical applications.
+**Deep.piste (2023–ongoing)**  
+The **Deep.piste** project (*deep learning* and *dépistage*—French for *screening*) aims to assess the **maximum potential impact of artificial intelligence** on the French breast cancer screening program. The project is the result of a collaboration between the [Regional Center for Cancer Screening (CRCDC) in Occitanie](https://occitanie-depistagecancer.fr/), [Epiconcept](https://www.epiconcept.fr/en/), the company responsible for the digitization of mammograms in Occitanie, and the [HeKa team](https://heka.gitlabpages.inria.fr/), which brings expertise in deep learning for medical applications.
 
-
+**Main stages of the Deep.piste project:**
+1. §2023-2024§ **Construction of reliable cancer labels** through systematic follow-up of all screened women using data from the [National Health Data System (SNDS)](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html). These labels include interval cancers, defined as cancers diagnosed within 24 months following a negative mammography.
+2. §2024-2025§ **Training of convolutional neural network architectures** to achieve state-of-the-art performance on three tasks: cancer detection, cancer risk prediction, and normality classification.
+3. §2025§ **Enhancing model trustworthiness for radiologists**, in particular through the integration of Selective Prediction mechanisms.
+4. §2025-2026§ **Evaluation of the maximal performance gains** achievable by the screening program through the integration of trustworthy AI models at different stages of the screening workflow, leading to practical recommendations aimed at improving sensitivity and positive predictive value.
 
  " | markdownify }}
 </div>
