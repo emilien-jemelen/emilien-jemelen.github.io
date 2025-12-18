@@ -71,13 +71,3 @@ The **Deep.piste** project (*deep learning* and *dépistage*—French for *scree
 
  " | markdownify }}
 </div>
-
-<a id="teaching"></a>
-<div class="section-card">
-  {{ "
-## Teaching
-
-- Course A
-- Course B
-" | markdownify }}
-</div>
