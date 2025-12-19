@@ -66,7 +66,7 @@ The **Deep.piste** project (*deep learning* and *dépistage*—French for *scree
 ![Mammograms](/mammos.png)
 
 **Main stages of the Deep.piste project:**
-1. §2023-2024§ **Construction of reliable cancer labels** through systematic follow-up of all screened women using data from the [National Health Data System (SNDS)](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html). These labels include interval cancers, defined as cancers diagnosed within 24 months following a negative mammography.
+1. §2023-2024§ **Construction of reliable cancer labels** through systematic follow-up of all screened women using data from the [National Health Data System (SNDS)](https://documentation-snds.health-data-hub.fr/snds/introduction/01-snds.html). For this purpose, [sndskit](https://github.com/Epiconcept-Paris/sndskit), a Python package for retrieving SNDS codes and their corresponding dates, was developed.
 2. §2024-2025§ **Training of convolutional neural network architectures** to achieve state-of-the-art performance on three tasks: cancer detection, cancer risk prediction, and normality classification.
 3. §2025§ **Enhancing model trustworthiness for radiologists**, in particular through the integration of Selective Prediction mechanisms.
 4. §2025-2026§ **Evaluation of the maximal performance gains** achievable by the screening program through the integration of trustworthy AI models at different stages of the screening workflow, leading to practical recommendations aimed at improving sensitivity and positive predictive value.
