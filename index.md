@@ -15,17 +15,23 @@ PhD candidate in statistics and deep learning @ Inria & Epiconcept
 
 I am a Ph.D candidate in the [HeKa](https://heka.gitlabpages.inria.fr/) Inria team hosted at [PariSanté Campus](https://parisantecampus.fr/), under the supervision of [Sandrine Katsahian](https://www.researchgate.net/profile/Sandrine-Katsahian) and [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite). Here is [a short CV](/CV_Emilien_Jemelen.pdf).
 
-My primary research interests lie in statistics and machine learning, with a particular focus on medical imaging applications. In light of the limited interpretability of neural networks, I am especially interested in developing models augmented with application-wise abstention mechanisms (Selective Prediction) that provide performance guarantees and enhance the transparency and reliability of model outputs for end users.
+My research interests lie in statistics and machine learning, with a particular focus on medical imaging applications in high-stakes domains such as cancer screening or treatment response prediction.
+
+Given the current limited interpretability of neural networks, I am especially interested in human–machine interaction and in developing models equipped with abstention mechanisms (Selective Prediction), so that they can defer to the end user when they are more likely to be wrong.
+
+I am also very interested in recent advances in domain generalization in machine learning. More generally, I would be very excited to see the emergence of sufficiently large, well-annotated datasets for cancer detection — including systematic patient follow-up after screening — that could support the development of a foundation model for pattern detection in X-ray mammography. This could help move beyond the endless fine-tuning on relatively small (given the dimensionality of the images), highly imbalanced datasets, which is still a major issue as acquisition devices keep evolving and current CNN architectures often suffer from substantial performance degradation.
+
+I am currently looking for a postdoctoral position in statistical learning or deep learning applied to imaging. Please feel free to get in touch if you would like to discuss.
 
 #### Contact:
 
-* E-mail: name.surname@inria.fr
+* E-mail: name.surname@inria.fr or name.surname@gmail.com
 * Address: Équipe Inria HeKA, PariSanté Campus,
   2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris. Métro Balard or Porte de Versailles.
 
 #### Some non-academic interests:
 * Amateur road cycling with the [Equipe Cycliste Vélizy 78](https://www.ecvelizy78.com/) competition team since 2021.
-* Long-standing practice of classical guitar, with a repertoire spanning mainly flamenco and Baroque pieces; check out this fantastic [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189) for an overview of one of the greatest duos in the history of the instrument.
+* Classical guitar, with a repertoire spanning flamenco and Baroque pieces; for a much better illustration of the instrument: check out this fantastic [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189) starring one of the greatest duos in the history of classical music.
 " | markdownify }}
 </div>
 
@@ -40,9 +46,20 @@ My primary research interests lie in statistics and machine learning, with a par
 #### Conference papers: 
 * *Beyond Accuracy: Controlling Broad Error Types in Selective Classification*. Emilien Jemelen, Francisco Orchard, Sandrine Katsahian, Agathe Guilloux. Currently under review.
 
+#### Workshop papers:
+* *Beyond Accuracy: Controlling Broad Error Types in Selective Classification*. Emilien Jemelen, Francisco Orchard, Sandrine Katsahian, Agathe Guilloux—accepted at the AISTATS 2026 workshop on Uncertainty Calibration—online release expected in Spring 2026.
+* *Where to Drop: Tuning Monte Carlo Dropout for Uncertainty Calibration in Image Classification*. Lina Benyamina and Emilien Jemelen—accepted at the AISTATS 2026 workshop on Uncertainty Calibration—online release expected in Spring 2026.
+
 ![Different impact](/error_types.png)
 
+#### Ongoing work (draft titles):
+* [Journal paper] Performance of retrospective breast cancer screening pathways integrating CNN-based models trained for 2-year cancer detection and equipped with abstention mechanisms — _submission expected in summer 2026_
+* [Journal paper] Linkage analysis of the deep.piste breast cancer screening database with the SNDS (the French national health insurance claims database) — _submission expected in summer 2026_
+* [Conference or workshop paper] Knowledge transfer across mammography datasets: leveraging domain adaptation to limit performance degradation in breast cancer screening tasks — _submission expected in summer/fall 2026_
+
 #### Communications (by topic):
+* **Uncertainty calibration for neural nets in imaging tasks**
+  * Posters presentation at the [AISTATS workshop _Towards Trustworthy Predictions: Theory and Applications of Calibration for Modern AI_](https://calibration-workshop.github.io/). Tanger. May 2026.
 * **Breast cancer detection with convolutional networks on screening mammograms**
   * Poster presentation at [the Women's Health Conference](https://www.mcascientificevents.eu/womens-health-conference/). Paris. September 2025.
   * Oral presentation at the Journée Nationale de la FEHAP (a private hospitals network). Remote. June 2025.
