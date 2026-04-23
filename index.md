@@ -4,6 +4,10 @@ permalink: /
 background: "/banner.jpg"
 ---
 
+# Emilien Jemelen
+
+PhD candidate in statistics and deep learning | Inria & Epiconcept
+
 <a id="about"></a>
 <div class="section-card">
   {{ "
