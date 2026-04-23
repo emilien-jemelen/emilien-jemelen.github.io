@@ -4,14 +4,14 @@ permalink: /
 background: "/banner.jpg"
 ---
 
-# Emilien Jemelen
+### Emilien Jemelen
 
-PhD candidate in statistics and deep learning | Inria & Epiconcept
+PhD candidate in statistics and deep learning @ Inria & Epiconcept
 
-<a id="about"></a>
+<a id="Welcome"></a>
 <div class="section-card">
   {{ "
-## About
+## Welcome
 
 I am a Ph.D candidate in the [HeKa](https://heka.gitlabpages.inria.fr/) Inria team hosted at [PariSanté Campus](https://parisantecampus.fr/), under the supervision of [Sandrine Katsahian](https://www.researchgate.net/profile/Sandrine-Katsahian) and [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite). Here is [a short CV](/CV_Emilien_Jemelen.pdf).
 
