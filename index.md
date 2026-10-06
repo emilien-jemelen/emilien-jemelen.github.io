@@ -15,13 +15,11 @@ PhD candidate in statistics and deep learning @ Inria & Epiconcept
 
 I am a Ph.D candidate in the [HeKa](https://heka.gitlabpages.inria.fr/) Inria team hosted at [PariSanté Campus](https://parisantecampus.fr/), under the supervision of [Sandrine Katsahian](https://www.researchgate.net/profile/Sandrine-Katsahian) and [Agathe Guilloux](https://sites.google.com/view/agatheguilloux-personalwebsite). Here is [a short CV](/CV_Emilien_Jemelen.pdf).
 
-My research interests lie in statistics and machine learning, with a particular focus on medical imaging applications in high-stakes domains such as cancer screening or treatment response prediction.
+My research interests lie in statistics and machine learning, with a particular focus on medical imaging applications in high-stakes domains such as cancer screening.
 
-Given the current limited interpretability of neural networks, I am especially interested in human–machine interaction and in developing models equipped with abstention mechanisms (Selective Prediction), so that they can defer to the end user when they are more likely to be wrong.
+Given the current limited interpretability of neural networks, I am interested in human–machine interaction and in developing models equipped with abstention mechanisms (Selective Prediction), so that they can defer to the user when they are more likely to be wrong.
 
-I am also very interested in recent advances in domain generalization in machine learning. More generally, I would be very excited to see the emergence of sufficiently large, well-annotated datasets for cancer detection — including systematic patient follow-up after screening — that could support the development of a foundation model for pattern detection in X-ray mammography. This could help move beyond the endless fine-tuning on relatively small (given the dimensionality of the images), highly imbalanced datasets, which is still a major issue as acquisition devices keep evolving and current CNN architectures often suffer from substantial performance degradation.
-
-I am currently looking for a postdoctoral position in statistical learning or deep learning applied to imaging. Please feel free to get in touch if you would like to discuss.
+I am currently looking for a postdoctoral position in statistical learning or deep learning applied to imaging. Please feel free to get in touch:
 
 #### Contact:
 
@@ -29,9 +27,9 @@ I am currently looking for a postdoctoral position in statistical learning or de
 * Address: Équipe Inria HeKA, PariSanté Campus,
   2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris. Métro Balard or Porte de Versailles.
 
-#### Some non-academic interests:
-* Amateur road cycling with the [Equipe Cycliste Vélizy 78](https://www.ecvelizy78.com/) competition team since 2021.
-* Classical guitar, with a repertoire spanning flamenco and Baroque pieces; for a much better illustration of the instrument: check out this fantastic [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189) starring one of the greatest duos in the history of classical music.
+#### Non-academic interests:
+* Amateur road cycling with the [Equipe Cycliste Vélizy 78](https://www.ecvelizy78.com/) team since 2021.
+* Classical guitar, with a repertoire spanning flamenco and Baroque pieces. Check out this fantastic [podcast on the legendary duo Ida Presti and Alexandre Lagoya](https://www.radiofrance.fr/francemusique/podcasts/guitare-guitares/ida-presti-et-alexandre-lagoya-7807189) starring my favourite duo.
 " | markdownify }}
 </div>
 
